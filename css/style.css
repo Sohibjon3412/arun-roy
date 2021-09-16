@@ -104,6 +104,7 @@ p {
   margin-left: 15px;
   font-size: 21px;
   background-color: var(--body-color);
+  color: var(--text-color);
 }
 /* START HERO SECTION  */
 .hero-sec {
@@ -314,7 +315,6 @@ p {
 .plan {
   width: 100%;
   height: 300px;
-  background: rgb(0,81,242);
   background: linear-gradient(90deg, rgba(0,81,242,1) 16%, rgba(1,36,152,1) 60%);
   border-radius: 10px;
   margin-bottom: 40px;
@@ -424,3 +424,79 @@ p {
   top: 50%;
   right: 0;
 }
+/* START JOIN SECTION  */
+.join-sec {
+  width: 100%;
+  height: 440px;
+  background: linear-gradient(90deg, rgba(0,81,242,1) 16%, rgba(1,36,152,1) 60%);
+  border-radius: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.mail-img {
+  width: 155px;
+  margin-top: 60px;
+}
+.join-title {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--pemary-color);
+}
+.join-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--pemary-color);
+}
+.join-inp-sec {
+  width: 760px;
+  height: 80px;
+  background-color: var(--pemary-color);
+  border-radius: 7px;
+  margin: 0 auto;
+}
+.join-form {
+  line-height: 80px;
+}
+.email-inp {
+  width: 305px;
+  height: 50px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 7px;
+  outline-color: #0057FF;
+}
+
+/* START FOOTER SECTION  */
+#footer-sec {
+  width: 100%;
+  height: 350px;
+  margin-top: 100px;
+  position: relative;
+}
+.site-logo {
+  padding-top: 50px;
+}
+.footer-text {
+  width: 365px;
+  height: 60px;
+  margin-bottom: 100px;
+}
+.footer-title {
+  padding-top: 50px;
+}
+.footer-link {
+  font-weight: 500;
+  color: var(--text-color);
+  transition: color 0.4s ease;
+}
+.footer-link:hover {
+  color: var(--btn-bg);
+}
+.site-about {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+
+
